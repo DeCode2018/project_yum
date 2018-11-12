@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+}
+img {
+  width: 194px;
+  height: 150px;
+
+}
+
+.yum_name {
+  font-size: 20px;
+  text-align: center;
+}
+
+#yum_container {
+  background-color: lightblue;
+  border-color: black;
+  border-style: solid;
+  height: 400px;
+  padding-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.yum_card {
+  border-color: red;
+  border-style: solid;
+  height: 250px;
+  width: 200px;
+  margin: 40px;
+
+
+}
