@@ -10,12 +10,36 @@
   </head>
   <body>
     <div class='jumbotron'>
-      <h1 class>WELCOME TO YUM!</h1>
+      <h1 class>WELCOME TO YUM</h1>
     </div>
 
-    <div class = 'container-fluid' id= 'yum_container'>
+    <div class = 'container-fluid' id= 'yum_container'></div>
+    <div class = 'container-fluid' id= 'ingredients_container'></div>
 
-    </div>
+    <form>
+        <div class="form-group">
+          <label for="recipe_name">Recipe Name</label>
+          <input type="text" class="form-control" id="recipe_name" placeholder="Enter Recipe Name">
+        </div>
+        <div class="form-group">
+          <label for="recipe_image">Recipe Image</label>
+          <input type="text" class="form-control" id="recipe_image" placeholder="Enter Recipe Image">
+        </div>
+        <div class="form-group">
+          <label for="recipe_ingredients">Ingredients</label>
+          <input type="text" class="form-control" id="recipe_ingredients" placeholder="Enter All Ingredients">
+        </div>
+        <div class="form-group">
+          <label for="recipe_instructions">Instructions</label>
+          <input type="text" class="form-control" id="recipe_instructions" placeholder="Enter Instructions">
+        </div>
+        <div class="form-group">
+          <label for="recipe_cook_time">Cook Time</label>
+          <input type="text" class="form-control" id="recipe_cook_time" placeholder="Enter Cook Time">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+    </form>
     <script type="text/javascript" src="src/recipe.js"></script>
     <script type="text/javascript" src="src/category.js"></script>
     <script type="text/javascript" src="src/script.js"></script>

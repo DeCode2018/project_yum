@@ -2,7 +2,7 @@ h1 {
   text-align: center;
 }
 img {
-  width: 194px;
+  width: 200px;
   height: 150px;
 
 }
@@ -14,20 +14,36 @@ img {
 
 #yum_container {
   background-color: lightblue;
-  border-color: black;
-  border-style: solid;
+  /* border-color: black;
+  border-style: solid; */
   height: 400px;
   padding-top: 25px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.yum_card {
-  border-color: red;
+#ingredients_container {
+  background-color: yellow;
+  border-color: black;
   border-style: solid;
+  height: 400px;
+  padding-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.yum_card {
+  /* border-color: red;
+  border-style: solid; */
+  background-color: teal;
   height: 250px;
   width: 200px;
   margin: 40px;
+  border-radius: 30px;
+}
 
-
+img:hover{
+  webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  filter: blur(4px);
 }
